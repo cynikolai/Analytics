@@ -1,0 +1,17 @@
+﻿Build started 1/17/2015 5:20:15 PM.
+     1>Project "c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\App4\App4.Windows\App4.Windows.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\Debug\App4.Windows\App4.Windows.exe" /INCREMENTAL /NOLOGO kernel32.lib /MANIFEST:NO /DEBUG /PDB:"c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\Debug\App4.Windows\App4.Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\Debug\App4.Windows\App4.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\Source.obj
+         Debug\pch.obj
+         Debug\MainPage.xaml.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\Debug\App4.Windows\App4.Windows.lib and object c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\Debug\App4.Windows\App4.Windows.exp
+     1>MainPage.xaml.obj : error LNK2019: unresolved external symbol "public: __thiscall twitpp::oauth::account::account(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0account@oauth@twitpp@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z) referenced in function "private: void __cdecl App4::MainPage::Button_Click(class Platform::Object ^,class Windows::UI::Xaml::RoutedEventArgs ^)" (?Button_Click@MainPage@App4@@A$AAAXP$AAVObject@Platform@@P$AAVRoutedEventArgs@Xaml@UI@Windows@@@Z)
+     1>c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\Debug\App4.Windows\App4.Windows.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "c:\Users\Cyrus\documents\visual studio 2013\Projects\App4\App4\App4.Windows\App4.Windows.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.36

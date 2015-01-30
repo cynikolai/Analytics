@@ -75,7 +75,7 @@ void App4::MainPage::Button_Click(Platform::Object^ sender, Windows::UI::Xaml::R
 	const std::string consumer_secret = "3UHBiiF7v0TPGAQVYeINBrWTzPQ8NGnYJq2RCOq42gDEqxkbaM";
 	twitpp::oauth::account ac2(consumer, consumer_secret);
 
-	/*
+	
 	//assume we have vector<double> times;
 	frequency_gen(times);
 	double mean_frequency = mean(times);
@@ -86,6 +86,10 @@ void App4::MainPage::Button_Click(Platform::Object^ sender, Windows::UI::Xaml::R
 	{
 	categories[i] = category_determiner(times[i],mean_frequency,std_frequency);
 	}
+	
+	//FAQ: Ever heard of arrays?
+	
+	//A: Unfortunately, Xaml requires all objects are stored individually...
 	State_0->Background = ref new SolidColorBrush(color_picker(categories[0]));
 	State_1->Background = ref new SolidColorBrush(color_picker(categories[1]));
 	State_2->Background = ref new SolidColorBrush(color_picker(categories[2]));
@@ -253,7 +257,7 @@ void App4::MainPage::Button_Click(Platform::Object^ sender, Windows::UI::Xaml::R
 	if (top_num == 47) { OS_LTS->Text =  "Wisconsin"; }
 	if (top_num == 48) { OS_LTS->Text =  "Wyoming"; }
 	if (top_num == 49) { OS_LTS->Text =  "Maryland"; }
-	*/
+	
 
 
 
